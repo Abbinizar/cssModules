@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+input[type=text],[type=date], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+table, td, th{
+  border:1px solid #ddd;
+  text-align: left;
+}
+table{
+  border-collapse: collapse;
+  width: 100%
+}
+th, td{
+  padding: 15px;
+}
+body{
+  background-color: #2196F3;
+}
+header{
+  background-color: black;
+  width: 100%;
+  border-radius: 5px;
+}
+ul{
+  margin:0;
+  padding: 0;
+  overflow: auto;
+  text-align: center;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  float: bottom;
+}
+li a:hover{
+  background-color: #111;
+  width: 90%;
+}
+/*button*/
+.button{
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  width: 10%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.button:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
+}
+.button--active{
+  background-color: #4caf50;
+}
+.button--inactive{
+  background-color: grey;
+}
+.button--danger{
+  background-color: #FF3D00;
+}
+.button--cancel{
+  background-color: orange;
+}
+.button_field{
+  padding: 10px;
+  width: 70%;
+  margin-left: 25%;
+  margin-top:-530px;
+  float: left;
+}
+.button_circle{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.all_font{
+  font: 400 16px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+/*title*/
+.paragraph{
+  text-align: center;
+  padding: 10px;
+} 
+.paragraph--black{
+  color: black;
+}
+/*container*/
+.container{
+  display: grid;
+  max-width: 1000px;
+  width: 100%;
+  height: 555px;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*navigation bar*/
+.navbar{
+  position: relative;
+  height: 460px;
+  width: 20%;
+  margin-top: 4px;
+  background-color: grey;
+  padding-top: 60px;
+  border-radius: 5px;
+}
+/*card view*/
+.card{
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width: 200px;
+  border-radius: 5px;
+  padding-bottom: 2px
+}
+.card_img{
+  align-items : center;
+  width: 100%;
+}
+.card_container{
+  text-align: center;
+}
+.card--grey{
+  background-color: grey;
+}
+.card--red{
+  background-color: red;
+}
+.card--green{
+  background-color: green;
+}
+.card--blue{
+  background-color: blue;
+}
+.card:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
+}
+.card_field{
+  padding: 10px;
+  width: 70%;
+  margin-left: 25%;
+  margin-top:-500px;
+  float: left;
+}
+/*form*/
+.form{
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
+}
+.form_field{
+  padding: 10px;
+  width: 70%;
+  height: 450px;
+  margin-left: 25%;
+  margin-top:-500px;
+  float: left;
+}
+.form--red{
+  background-color: red;
+  color: white;
+}
+.form--blue{
+  background-color: blue;
+  color: white;
+}
+.form--green{
+  background-color: green;
+  color: white;
+}
